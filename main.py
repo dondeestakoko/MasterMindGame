@@ -18,5 +18,6 @@ def main_game(chances):
             chances -= 1 #decrementer les chances (deuxieme condition d'arret)
             print('vous avez echouer mais ne vous abondonez pas')
             print('votre score est: ' + str(chances))
+    print('la solution est: ' + str(secret_combo))
 
 main_game(chances)
